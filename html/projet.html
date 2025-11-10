@@ -9,11 +9,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/header.css">
+        <link rel="stylesheet" href="../css/banniere.css">
         <title>Coda bakery</title>
     </head>
 
     <body>
-    
         <header class="header">
             <div class="overlay_menu_mobile" onclick="closeMenuMobile()"></div>
             <div class="header_logo">
@@ -21,7 +21,7 @@
             </div>
             <nav class="header_nav">
                 <div class="header_nav_close" onclick="closeMenuMobile()">
-                    <img src="../image/close.svg">
+                    <img src="../image/close.svg" alt="Fermer">
                 </div>
                 <ul class="header_nav_menu">
                     <li class="header_nav_menu_link">
@@ -38,16 +38,31 @@
                     </li>
                 </ul>
             </nav>
-            <div  class="header_burger" onclick="openMenuMobile()">
-                <image src="../image/burger.svg"></image>
+            <div class="header_burger" onclick="openMenuMobile()">
+                <img src="../image/burger.svg" alt="Menu">
             </div>
         </header>
+        
+        <section>
+            <div id="custom_banniere">
+                <img src="../image/premier.png" alt="Bannière">
+                <p class="texte_banniere">
+                    Café Délicieux
+                </p>
+                <h2 class="titre_banniere">
+                    Douceurs &<br>Saveurs
+                </h2>
+                <button type="button" name="commander" class="button_banniere">Commander</button>
+            </div>
+        </section>
+        
         <script>
             function openMenuMobile() {
                 document.querySelector('.header_nav').classList.add('open');
                 document.querySelector('.overlay_menu_mobile').classList.add('open');
             }
-             function closeMenuMobile() {
+            
+            function closeMenuMobile() {
                 document.querySelector('.header_nav').classList.remove('open');
                 document.querySelector('.overlay_menu_mobile').classList.remove('open');
             }         

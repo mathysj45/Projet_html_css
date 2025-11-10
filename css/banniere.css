@@ -1,0 +1,56 @@
+#custom_banniere {
+    position: relative;
+    width: 100%;
+    max-width: 393px;
+    height: auto;
+    opacity: 1;
+    margin-top: 50px;
+}
+
+#custom_banniere img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.texte_banniere {
+    position: absolute;
+    font-family: Inter;
+    color: #E9BD8C;
+    font-size: 14px;
+    margin: 0;
+    top: 85px;
+    left: 21px;
+}
+
+.titre_banniere {
+    position: absolute;
+    font-family: Sansita Swashed;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    top: 106px;
+    left: 21px;
+    line-height: 1.2;
+}
+
+.button_banniere {
+    position: absolute;
+    font-family: Inter;
+    background-color: #933C24;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    top: 185px;
+    left: 21px;
+    border-radius: 8px;
+    border: 1px solid #933C24;
+    padding: 10px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button_banniere:hover {
+    background-color: #7a3220;
+}
