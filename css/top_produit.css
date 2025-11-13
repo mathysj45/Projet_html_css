@@ -1,0 +1,133 @@
+.section_produits {
+    padding: 40px 20px;
+    background-color: #FFFFFF;
+}
+
+.titre_section {
+    font-family: 'Sansita Swashed';
+    font-size: clamp(28px, 7vw, 40px);
+    color: #000000;
+    text-align: center;
+    margin: 0 0 30px 0;
+    font-weight: 700;
+}
+
+.container_produits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom_top_produit {
+    position: relative;
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.custom_top_produit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.custom_top_produit img:first-of-type {
+    width: 100%;
+    height: 100%;
+    min-height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+.custom_top_produit img:nth-of-type(2) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    max-width: 180px;
+    height: auto;
+    object-fit: contain;
+    z-index: 2;
+}
+
+.btn_info {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    font-family: 'Sansita Swashed';
+    font-size: 18px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 3;
+}
+
+.btn_info:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+.prix_top_produit {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    font-family: 'Poppins';
+    font-size: clamp(20px, 5vw, 24px);
+    color: #FFFFFF;
+    font-weight: 600;
+    margin: 0;
+    z-index: 3;
+}
+
+.nom_top_produit {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: 'Poppins';
+    font-size: clamp(14px, 3.5vw, 16px);
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 400;
+    z-index: 3;
+}
+
+.btn_ajouter {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-family: 'Poppins';
+    background-color: #933C24;
+    color: white;
+    font-size: clamp(13px, 3.5vw, 15px);
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    white-space: nowrap;
+    z-index: 3;
+}
+
+.btn_ajouter:hover {
+    background-color: #7a3220;
+    transform: scale(1.05);
+}
+
+.btn_ajouter:active {
+    transform: scale(0.98);
+}

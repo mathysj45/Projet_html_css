@@ -1,0 +1,34 @@
+.petits_plaisir_image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 40px 20px;
+  background-color: #FFFFFF;
+}
+
+.petits_plaisir_image img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+#ligne_petit_plaisir {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 320px;
+  padding: 0.5rem 0;
+}
+
+.texte_petits_plaisir,
+.prix_petits_plaisir {
+  font-family: 'Poppins';
+  font-weight: 700;
+  color: #000;
+  font-size: 1rem;
+  margin: 0;
+}

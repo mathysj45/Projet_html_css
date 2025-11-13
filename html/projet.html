@@ -10,6 +10,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/header.css">
         <link rel="stylesheet" href="../css/banniere.css">
+        <link rel="stylesheet" href="../css/top_produit.css">
+        <link rel="stylesheet" href="../css/reduction.css">
+        <link rel="stylesheet" href="../css/decouverte.css">
+        <link rel="stylesheet" href="../css/info.css">
+        <link rel="stylesheet" href="../css/plaisir.css">
+        <link rel="stylesheet" href="../css/footer.css">
         <title>Coda bakery</title>
     </head>
 
@@ -45,16 +51,241 @@
         
         <section>
             <div id="custom_banniere">
-                <img src="../image/premier.png" alt="Bannière">
-                <p class="texte_banniere">
-                    Café Délicieux
-                </p>
-                <h2 class="titre_banniere">
-                    Douceurs &<br>Saveurs
-                </h2>
-                <button type="button" name="commander" class="button_banniere">Commander</button>
+                <div class="banniere_image"></div>
+                <div class="banniere_contenu">
+                    <p class="texte_banniere">Café Délicieux</p>
+                    <h2 class="titre_banniere">Douceurs &<br>Saveurs</h2>
+                    <button type="button" class="button_banniere">Commander</button>
+                </div>
             </div>
         </section>
+     
+
+        <section class="section_produits">
+            <h2 class="titre_section">Nos Tops Produits</h2>
+            <div class="container_produits">
+                <div class="custom_top_produit">
+                    <img src="../image/fond.png" alt="fond">
+                    <img src="../image/pain.png" alt="pain">
+                    <button class="btn_info" aria-label="Informations produit">i</button>
+                    <p class="prix_top_produit">40€</p>
+                    <p class="nom_top_produit">Pain complet</p>
+                    <button class="btn_ajouter">Ajouter</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container_produits">
+                <div class="custom_top_produit">
+                    <img src="../image/fond.png" alt="fond">
+                    <img src="../image/feuillete.png" alt="feuillete">
+                    <button class="btn_info" aria-label="Informations produit">i</button>
+                    <p class="prix_top_produit">40€</p>
+                    <p class="nom_top_produit">Pâtisserie feuilletée</p>
+                    <button class="btn_ajouter">Ajouter</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container_produits">
+                <div class="custom_top_produit">
+                    <img src="../image/fond.png" alt="fond">
+                    <img src="../image/baguette.png" alt="baguette de campagne">
+                    <button class="btn_info" aria-label="Informations produit">i</button>
+                    <p class="prix_top_produit">40€</p>
+                    <p class="nom_top_produit">Baguette de campagne</p>
+                    <button class="btn_ajouter">Ajouter</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container_produits">
+                <div class="custom_top_produit">
+                    <img src="../image/fond.png" alt="fond">
+                    <img src="../image/miche.png" alt="Miche de pain blanc">
+                    <button class="btn_info" aria-label="Informations produit">i</button>
+                    <p class="prix_top_produit">40€</p>
+                    <p class="nom_top_produit">Miche de pain blanc</p>
+                    <button class="btn_ajouter">Ajouter</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container_produits">
+                <div class="custom_top_produit">
+                    <img src="../image/fond.png" alt="fond">
+                    <img src="../image/gateau.png" alt="Gâteau pâte feuilletée">
+                    <button class="btn_info" aria-label="Informations produit">i</button>
+                    <p class="prix_top_produit">40€</p>
+                    <p class="nom_top_produit">Gâteau pâte feuilletée</p>
+                    <button class="btn_ajouter">Ajouter</button>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container_produits">
+                <div class="custom_top_produit">
+                    <img src="../image/fond.png" alt="fond">
+                    <img src="../image/miche_complet.png" alt="Miche de pain complet">
+                    <button class="btn_info" aria-label="Informations produit">i</button>
+                    <p class="prix_top_produit">40€</p>
+                    <p class="nom_top_produit">Miche de pain complet</p>
+                    <button class="btn_ajouter">Ajouter</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="custom_banniere_2">
+                <h2 class="titre_banniere_2">
+                    20% de Réduction sur la première commande
+                </h2>
+                <p class="texte_banniere_2">
+                    Profitez de cette offre pour découvrir<br>nos plus beaux délices !
+                </p>
+                <div class="bouton">
+                    <button type="button" name="info" class="button_banniere_2">En savoir plus</button>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <section>
+            <div id="decouverte">
+                <h2 class="titre_section">Découvrir</h2>
+                <br>
+                <ul class="decouverte_nav_menu">
+                    <li class="decouverte_nav_menu_link active">
+                        <a href="#">Gâteaux</a>
+                    </li>
+                    <li class="decouverte_nav_menu_link">
+                        <a href="#">Muffins</a>
+                    </li>
+                    <li class="decouverte_nav_menu_link">
+                        <a href="#">Croissant</a>
+                    </li>
+                    <li class="decouverte_nav_menu_link">
+                        <a href="#">Pains</a>
+                    </li>
+                </ul>
+                <div class="decouverte_image">
+                    <img src="../image/neuvieme.png">
+                    <img src="../image/dixieme.png">
+                    <img src="../image/onzieme.png">
+                    <img src="../image/douzieme.png">
+                    <img src="../image/treizieme.png">
+                    <img src="../image/quatorzieme.png">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="custom_banniere_3">
+                <h2 class="titre_banniere_3">
+                    A propos
+                </h2>
+                <p class="texte_banniere_3">
+                    Un café moderne qui respecte les<br>recettes traditionnelles en vous<br>proposant du “fait maison”. 
+                </p>
+                <div class="bouton_info">
+                    <button type="button" name="info" class="button_banniere_3">Lire plus</button>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+        <section>
+            <div>
+                <h2 class="titre_section">Petits Plaisirs</h2>
+                <div class="petits_plaisir_image">
+                    <img src="../image/seizieme.png">
+                    <div id="ligne_petit_plaisir">
+                        <p class="texte_petits_plaisir">
+                            Pâte feuilletée
+                        </p>
+                        <p class="prix_petits_plaisir">
+                            8€
+                        </p>
+                    </div>
+                    <img src="../image/dixseptieme.png">
+                    <div id="ligne_petit_plaisir">
+                        <p class="texte_petits_plaisir">
+                            Donuts
+                        </p>
+                        <p class="prix_petits_plaisir">
+                            8€
+                        </p>
+                    </div>
+                    <img src="../image/dixhuitieme.png">
+                    <div id="ligne_petit_plaisir">
+                        <p class="texte_petits_plaisir">
+                            Brownies
+                        </p>
+                        <p class="prix_petits_plaisir">
+                            8€
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer_logo">
+                <img src="../image/logo_entreprise.svg">
+                <p>Suivez-nous</p>
+                <div class="footer_icons">
+                <img src="../image/facebook.svg" alt="Facebook">
+                <img src="../image/pinterest.svg" alt="Pinterest">
+                <img src="../image/tel.svg" alt="WhatsApp">
+                <img src="../image/insta.svg" alt="Instagram">
+                </div>
+            </div>
+
+            <div class="footer_section">
+                <h3>A propos</h3>
+                <p>02 38 00 00 00</p>
+                <p>bakery@coda.school</p>
+                <p>24 Rue Jeanne d'Arc<br>45000 Orléans</p>
+            </div>
+
+            <div class="footer_section">
+                <h3>Explorer</h3>
+                <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_section">
+                <h3>Actualité</h3>
+                <div class="footer_actualite">
+                <img src="../image/vingt.png" alt="">
+                <div>
+                    <p class="actualite_date">14 juin 2024</p>
+                    <p class="actualite_titre">Nouveau délice</p>
+                </div>
+                </div>
+                <div class="footer_actualite">
+                <img src="../image/vingtetun.png" alt="">
+                <div>
+                    <p class="actualite_date">14 juin 2024</p>
+                    <p class="actualite_titre">Pain au raisin</p>
+                </div>
+                </div>
+            </div>
+
+            <p class="footer_legal">© 2025 Coda Bakery. Tous droits réservés.</p>
+        </footer>
+
         
         <script>
             function openMenuMobile() {
