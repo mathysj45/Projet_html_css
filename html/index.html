@@ -20,6 +20,7 @@
     </head>
 
     <body>
+        <!-- Liens haut de page et menu burger -->
         <header class="header">
             <div class="overlay_menu_mobile" onclick="closeMenuMobile()"></div>
             <div class="header_logo">
@@ -49,6 +50,7 @@
             </div>
         </header>
         
+        <!-- Bannière juste après les liens avec le bouton commander -->
         <section>
             <div id="custom_banniere">
                 <div class="banniere_image"></div>
@@ -60,7 +62,7 @@
             </div>
         </section>
      
-
+        <!-- La section des tops produits -->
         <section class="section_produits">
             <h2 class="titre_section">Nos Tops Produits</h2>
             
@@ -121,16 +123,18 @@
             </div>
         </section>
 
+        <!-- La bannère réduction -->
         <section class="reduction">
             <div class="div-reduction">
-                <h3>20% de Réduction sur la première</br>commande</h3>
-                <p>Profitez de cette offre pour découvrir</br>nos plus beaux délices !</p>
+                <h3>20% de Réduction sur la première<br>commande</h3>
+                <p>Profitez de cette offre pour découvrir<br>nos plus beaux délices !</p>
                 <button type="submit">En savoir plus</button>
             </div>
          </section>
 
         <br>
 
+        <!-- Tout les produits découverte -->
         <section>
             <div id="decouverte">
                 <h2 class="titre_section">Découvrir</h2>
@@ -150,16 +154,17 @@
                     </li>
                 </ul>
                 <div class="decouverte_image">
-                    <img src="../image/neuvieme.png">
-                    <img src="../image/dixieme.png">
-                    <img src="../image/onzieme.png">
-                    <img src="../image/douzieme.png">
-                    <img src="../image/treizieme.png">
-                    <img src="../image/quatorzieme.png">
+                    <img src="../image/neuvieme.png" alt="gateau">
+                    <img src="../image/dixieme.png" alt="gateau">
+                    <img src="../image/onzieme.png" alt="gateau">
+                    <img src="../image/douzieme.png" alt="gateau">
+                    <img src="../image/treizieme.png" alt="gateau">
+                    <img src="../image/quatorzieme.png" alt="gateau">
                 </div>
             </div>
         </section>
 
+        <!-- La bannière informative -->
         <section class="reduction_2">
             <div class="div-reduction_2">
                 <h3>A propos</h3>
@@ -170,6 +175,7 @@
 
         <br>
 
+         <!-- La section des petits plaisirs -->
         <section>
             <div>
                 <h2 class="titre_section">Petits Plaisirs</h2>
@@ -198,6 +204,8 @@
                 </div>
             </div>
         </section>
+
+        <!-- Le bas de page -->
         <footer>
         <section class="suivre">
             <div class="suivre-pied">
@@ -223,7 +231,7 @@
                     <div class="propos-pied">
                         <p>02 38 00 00 00</p>
                         <p>bakery@coda.school</p>
-                        <p>24 Rue Jeanne d'Arc</br>45000 Orléans</p>
+                        <p>24 Rue Jeanne d'Arc<br>45000 Orléans</p>
                     </div>
                 </div>
 
@@ -260,11 +268,11 @@
         </section>
 
         <section class="copy">
-            <p>&copy; 2025 Coda Bakery.</br>Tous droits réservés</p>
+            <p>&copy; 2025 Coda Bakery.<br>Tous droits réservés</p>
         </section>
     </footer>
 
-        
+        <!-- La partie javascript pour le menu burger -->
         <script>
             function openMenuMobile() {
                 document.querySelector('.header_nav').classList.add('open');

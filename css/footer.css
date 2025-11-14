@@ -29,6 +29,7 @@ footer
     font-weight: 600;
     margin: 0;
     padding: 0;
+    font-style: 'Inter';
 }
 
 .suivre-pied img
@@ -86,6 +87,7 @@ hr
     text-align: center;
     font-weight: 700;
     font-size: 36px;
+    font-style: 'Inter';
 }
 
 .apropos p,
@@ -96,6 +98,7 @@ hr
     margin-left: clamp(42px, 5vw, 81px);
     font-weight: 500;
     font-size: 24px;
+    font-style: 'Inter';
 }
 
 .actu-pied img
@@ -124,6 +127,7 @@ hr
     font-weight: 500;
     max-height: 67px;
     margin: 0;
+    font-style: 'Inter';
 }
 
 .actu1,
@@ -150,6 +154,7 @@ hr
     font-weight: 600;
     font-size: 16px;
     padding-bottom: 30px;
+    font-style: 'Inter';
 }
 
 .info-pied p:hover
@@ -181,5 +186,11 @@ hr
         flex-direction: row;
         align-items: center;
         gap:10px;
+    }
+
+        .info-pied h3
+    {
+        text-align: left;
+        padding-left: 54px;
     }
 }
