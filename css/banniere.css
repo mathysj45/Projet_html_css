@@ -49,4 +49,20 @@
   border: 1px solid #933C24;
   padding: 10px 24px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button_banniere:hover {
+  background-color: #7a3220;
+}
+
+/* Media query pour desktop (1024px et plus) */
+@media (min-width: 1024px) {
+  #custom_banniere {
+    min-height: 100vh;
+  }
+  
+  .banniere_contenu {
+    margin-left: 8vw;
+  }
 }

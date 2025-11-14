@@ -120,7 +120,7 @@
     cursor: pointer;
     transition: background-color 0.3s, transform 0.2s;
     white-space: nowrap;
-    z-index: 3;
+    z-index: 4;
 }
 
 .btn_ajouter:hover {
@@ -130,4 +130,12 @@
 
 .btn_ajouter:active {
     transform: scale(0.98);
+}
+
+/* Media query pour desktop (1024px et plus) */
+@media (min-width: 768px) {
+    .container_produits {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
 }
