@@ -29,7 +29,7 @@ footer
     font-weight: 600;
     margin: 0;
     padding: 0;
-    font-style: 'Inter';
+    font-style: Inter;
 }
 
 .suivre-pied img
@@ -76,6 +76,10 @@ hr
     width: 100%;
 }
 
+.info-contenu p {
+    font-style: Inter;
+}
+
 .info-contenu > div
 {
     flex: 1 1 333px;
@@ -87,7 +91,7 @@ hr
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    font-style: 'Inter';
+    font-family: Inter;
 }
 
 .apropos p,
@@ -98,7 +102,7 @@ hr
     margin-left: clamp(42px, 5vw, 81px);
     font-weight: 500;
     font-size: 24px;
-    font-style: 'Inter';
+    font-family: Inter;
 }
 
 .actu-pied img
@@ -127,7 +131,6 @@ hr
     font-weight: 500;
     max-height: 67px;
     margin: 0;
-    font-style: 'Inter';
 }
 
 .actu1,
@@ -154,7 +157,7 @@ hr
     font-weight: 600;
     font-size: 16px;
     padding-bottom: 30px;
-    font-style: 'Inter';
+    font-style: Inter;
 }
 
 .info-pied p:hover
